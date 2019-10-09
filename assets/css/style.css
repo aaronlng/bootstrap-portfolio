@@ -143,6 +143,11 @@ h3, .sidebar, h2 {
     margin-right: 0;
 }
 
+.connectLinks {
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
 /*footer*/
 
 footer {
@@ -201,7 +206,7 @@ footer {
   .auth-image {
     float: left;
     width: 200px;
-    height: auto;
+    height: 200px;
     margin-top: 10px;
     margin-right: 25px;
   }
@@ -246,3 +251,41 @@ footer {
     border: 0 none;
   }
   
+  /*media queries*/
+  @media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #main-container {
+        width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+      header {
+          display: static;
+      }
+      #logo {
+          width: 100%;
+      }
+      .container {
+          margin: auto;
+      }
+      #foot-text {
+        position: absolute;
+        top: 95%;
+      }
+      nav {
+          float: left;
+          padding-left: 75px; 
+      }
+      #main-container {
+          width: 95%;
+      }
+      .work {
+        width: 100%;
+      }
+  }

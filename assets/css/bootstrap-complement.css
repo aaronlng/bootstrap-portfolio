@@ -1,0 +1,25 @@
+.social {
+    width: 75px;
+    height: 75px;
+}
+
+.media img {
+    width: 200px;
+    height: 200px;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+} 
+
+#socialLinksPF {
+    padding-bottom: 2.5rem; 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
